@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiRP - Modificación</title>
+</head>
+<body>
+    <header>
+        <!--Logo apuntando a pagina inicio-->
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../logo.png" alt="Inicio">
+            </a>
+        </div>
+        <!--Menú-->
+        <div class="menu">
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../Servidores.html">Servidores</a>
+                <a href="../Personajes.html">Personajes</a>
+                <a href="../Grupos.html">Grupos</a>
+                <a href="../Locales-Facciones.html">Locales y Facciones</a>
+                <a href="../contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Añadir / Modificar personaje</h1>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label>Nombre de usuario</label>
+                <input type="text" name="usuario" required><br>
+
+                <label>Correo electrónico</label>
+                <input type="email" name="email" required>
+            </fieldset>
+            <fieldset>
+                <legend>Datos del personaje</legend>
+                <label>Nombre del personaje</label>
+                <input type="text" name="nombre" required placeholder="Nombre Apellido/s"><br>
+
+                <label>Apodo</label>
+                <input type="text" name="apodo" required placeholder="Apodo1, Apodo2, etc."><br>
+
+                <label>Fecha de nacimiento</label>
+                <input type="datetime" name="fechanacimiento" required placeholder="21/06/2006"><br>
+
+                <label>Edad personaje</label>
+                <input type="number" name="edadpj" required placeholder="19"><br>
+                
+                <label>Género</label>
+                <input type="text" name="genero" required placeholder="Masculino/Femenino/Otro"><br>
+
+                <label>Orientación sexual</label>
+                <input type="text" name="orientacion" required placeholder="Hetero/Bi/Pan/etc"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos sobre el personaje</legend>
+                <label>Descripción física</label><br>
+                <textarea type="text" name="apariencia" cols="100" rows="5" placeholder="Como es físicamente (incluir altura), si tiene cicatrices y el porqué, y también si tiene tatuajes"></textarea><br>
+
+                <label>Personalidad</label><br>
+                <textarea type="text" name="personalidad" cols="100" rows="5" placeholder="Personalidad del personaje"></textarea><br>
+
+                <label>Relaciones</label><br>
+                <textarea type="text" name="relaciones" cols="100" rows="5" placeholder="Relaciones del personaje, pueden ser solo de parejas que haya tenido, o también puedes incluir a la familia"></textarea><br>
+
+                <label>Curiosidades</label><br>
+                <textarea type="text" name="apariencia" cols="100" rows="5" placeholder="Curiosidades sobre el personaje"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Historia del personaje</legend>
+                <textarea name="text" cols="100" rows="15" required placeholder="Introduzca un resumen o la historia de su personaje"></textarea>
+            </fieldset>
+        </form>
+            
+    <footer>
+       <div class="footer_info">
+            <p>2025 WikiRP. Todos los derechos reservados.</p>
+            <p>Contacto: <a href="mailto:amorac@iesrafaelalberti.es">amorac@iesrafaelalberti.es</a></p>
+        </div> 
+    </footer>
+</body>
+</html>
