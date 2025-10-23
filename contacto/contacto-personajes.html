@@ -34,7 +34,14 @@
                 <input type="text" name="usuario" required><br>
 
                 <label>Correo electrónico</label>
-                <input type="email" name="email" required>
+                <input type="email" name="email" required><br>
+
+                <label>Roleador (en caso de no ser tu personaje)</label>
+                <input type="text" name="roleador"><br>
+
+                <label>Servidor</label>
+                <input type="text" name="servidor" placeholder="Infames, ONX, etc" required><br>
+
             </fieldset>
             <fieldset>
                 <legend>Datos del personaje</legend>
@@ -48,7 +55,7 @@
                 <input type="datetime" name="fechanacimiento" required placeholder="21/06/2006"><br>
 
                 <label>Edad personaje</label>
-                <input type="number" name="edadpj" required placeholder="19"><br>
+                <input type="number" name="edadpj" min="18" placeholder="19"><br>
                 
                 <label>Género</label>
                 <input type="text" name="genero" required placeholder="Masculino/Femenino/Otro"><br>
@@ -74,6 +81,8 @@
                 <legend>Historia del personaje</legend>
                 <textarea name="text" cols="100" rows="15" required placeholder="Introduzca un resumen o la historia de su personaje"></textarea>
             </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
         </form>
             
     <footer>
