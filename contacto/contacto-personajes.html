@@ -26,70 +26,57 @@
         <p>Formulario con el que puedes agregar un personaje o modificar algún dato a la página web</p>
         <form>
             <fieldset>
-                <fieldset>
-                    <legend>Datos personales</legend>
-                    <label>Nombre de usuario</label>
-                    <input type="text" name="usuario" required><br>
-
-                    <label>Correo electrónico</label>
-                    <input type="email" name="email" required><br>
-
-                    <label>Roleador (en caso de no ser tu personaje)</label>
-                    <input type="text" name="roleador"><br>
-
-                    <label>Servidor</label>
-                    <input type="text" name="servidor" placeholder="Infames, ONX, etc" required><br>
-
-                    <label>¿Qué vas a hacer?</label><br>
-                    <input type="checkbox"> Añadir personaje
-                    <input type="checkbox"> Modificar personaje
-                    <br>
-                    <label>En caso de modificar el personaje:</label><br>
-                    <textarea type="text" cols="100" rows="5" placeholder="Indique el apartado que vaya a modificar aquí"></textarea>
-                </fieldset>
-                <fieldset>
-                    <legend>Datos del personaje</legend>
-                    <label>Nombre del personaje</label>
-                    <input type="text" name="nombre" required placeholder="Nombre Apellido/s"><br>
-
-                    <label>Apodo</label>
-                    <input type="text" name="apodo" required placeholder="Apodo1, Apodo2, etc."><br>
-
-                    <label>Fecha de nacimiento</label>
-                    <input type="datetime" name="fechanacimiento" required placeholder="21/06/2006"><br>
-
-                    <label>Edad personaje</label>
-                    <input type="number" name="edadpj" min="18" placeholder="19"><br>
-                    
-                    <label>Género</label>
-                    <input type="text" name="genero" required placeholder="Masculino/Femenino/Otro"><br>
-
-                    <label>Orientación sexual</label>
-                    <input type="text" name="orientacion" required placeholder="Hetero/Bi/Pan/etc"><br>
-                </fieldset>
-                <fieldset>
-                    <legend>Datos sobre el personaje</legend>
-                    <label>Descripción física</label><br>
-                    <textarea type="text" name="apariencia" cols="100" rows="5" placeholder="Como es físicamente (incluir altura), si tiene cicatrices y el porqué, y también si tiene tatuajes"></textarea><br>
-
-                    <label>Personalidad</label><br>
-                    <textarea type="text" name="personalidad" cols="100" rows="5" placeholder="Personalidad del personaje"></textarea><br>
-
-                    <label>Relaciones</label><br>
-                    <textarea type="text" name="relaciones" cols="100" rows="5" placeholder="Relaciones del personaje, pueden ser solo de parejas que haya tenido, o también puedes incluir a la familia"></textarea><br>
-
-                    <label>Curiosidades</label><br>
-                    <textarea type="text" name="apariencia" cols="100" rows="5" placeholder="Curiosidades sobre el personaje"></textarea>
-                </fieldset>
-                <fieldset>
-                    <legend>Historia del personaje</legend>
-                    <textarea name="text" cols="100" rows="15" required placeholder="Introduzca un resumen o la historia de su personaje"></textarea>
-                </fieldset>
-                <button type="submit">Enviar</button>
-                <button type="reset">Resetear</button>
+                <legend>Datos personales</legend>
+                <label>Nombre de usuario</label>
+                <input type="text" name="usuario" required><br>
+                <label>Correo electrónico</label>
+                <input type="email" name="email" required><br>
+                <label>Roleador (en caso de no ser tu personaje)</label>
+                <input type="text" name="roleador"><br>
+                <label>Servidor</label>
+                <input type="text" name="servidor" placeholder="Infames, ONX, etc" required><br>
+                <label>¿Qué vas a hacer?</label><br>
+                <input type="checkbox"> Añadir personaje
+                <input type="checkbox"> Modificar personaje
+                <br>
+                <label>En caso de modificar el personaje:</label><br>
+                <textarea cols="100" rows="5" placeholder="Indique el apartado que vaya a modificar aquí"></textarea>
             </fieldset>
+            <fieldset>
+                <legend>Datos del personaje</legend>
+                <label>Nombre del personaje</label>
+                <input type="text" name="nombre" required placeholder="Nombre Apellido/s"><br>
+                <label>Apodo</label>
+                <input type="text" name="apodo" required placeholder="Apodo1, Apodo2, etc."><br>
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="fechanacimiento" required><br>
+                <label>Edad personaje</label>
+                <input type="number" name="edadpj" min="18" placeholder="19"><br>
+                
+                <label>Género</label>
+                <input type="text" name="genero" required placeholder="Masculino/Femenino/Otro"><br>
+                <label>Orientación sexual</label>
+                <input type="text" name="orientacion" required placeholder="Hetero/Bi/Pan/etc"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos sobre el personaje</legend>
+                <label>Descripción física</label><br>
+                <textarea name="apariencia" cols="100" rows="5" placeholder="Como es físicamente (incluir altura), si tiene cicatrices y el porqué, y también si tiene tatuajes"></textarea><br>
+                <label>Personalidad</label><br>
+                <textarea name="personalidad" cols="100" rows="5" placeholder="Personalidad del personaje"></textarea><br>
+                <label>Relaciones</label><br>
+                <textarea name="relaciones" cols="100" rows="5" placeholder="Relaciones del personaje, pueden ser solo de parejas que haya tenido, o también puedes incluir a la familia"></textarea><br>
+                <label>Curiosidades</label><br>
+                <textarea name="apariencia" cols="100" rows="5" placeholder="Curiosidades sobre el personaje"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Historia del personaje</legend>
+                <textarea name="text" cols="100" rows="15" required placeholder="Introduzca un resumen o la historia de su personaje"></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
         </form>
-            
+    </main>        
     <footer>
         <p>2025 WikiRP. Todos los derechos reservados.</p>
         <p>Contacto: <a href="mailto:amorac@iesrafaelalberti.es">amorac@iesrafaelalberti.es</a></p>
