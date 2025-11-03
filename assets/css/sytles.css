@@ -1,0 +1,44 @@
+
+/*Variables e importaciones*/
+:root{
+    --color-primario: #660708;
+    --color-secundario: #161A1D;
+    --color-terciario: #BA181B;
+    --color-cuarto: #0B090A;
+}
+
+/*Reseteo* de estilo*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/*Cabecera*/
+.cabecera{
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-secundario);
+
+}
+.menu{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+}
+
+.menu__opcion{
+    color: var(--color-terciario);
+    font-size: 1.2rem;
+}
+
+
+
