@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="assets/css/sytles.css">
     <title>WikiRP - Inicio</title>
 </head>
-<body class="cuerpo">
+<body>
     <header class="cabecera">
         <!--Logo apuntando a pagina inicio-->
-        <a href="index.html">
+        <a href="index.html" class="enlace_cabecera">
             <img src="logo.png" alt="Inicio" class="logo_cabecera">
         </a>
         <!--Menú-->
@@ -18,27 +18,47 @@
             <a class="menu__opcion" href="servidores.html">Servidores</a>
             <a class="menu__opcion" href="personajes.html">Personajes</a>
             <a class="menu__opcion" href="grupos.html">Grupos</a>
-            <a class="menu__opcion" href="locales-facciones.html">Locales y Facciones</a>
+            <a class="menu__opcion" href="locales-facciones.html">Facciones</a>
             <a class="menu__opcion" href="contacto.html">Contacto</a>
         </nav>
     </header>
-    <main>
+    <main class="cuerpo">
         <section>
             <h1>Bienvenido/a a WikiRP</h1>
-            <p>Explora sobre los servidores, personajes, grupos y más del mundo del rol</p>
+            <p class="bienvenida">Explora sobre los servidores, personajes, grupos y más del mundo del rol.</p>
         </section>
         <!--Categorías-->
-        <section>
-            <h2>Páginas principales</h2>
-            <h3>Servidores</h3>
-            <p>Conoce los diferentes servidores de rol donde se encuentran los personajes <a href="Servidores.html">aquí</a></p>
-            <h3>Personajes</h3>
-            <p>Conoce algunos personajes y sus historias <a href="personajes.html">aquí</a></p>
-            <h3>Grupos</h3>
-            <p>Informate sobre los diferentes grupos criminales en el mundo del rol <a href="grupos.html">aquí</a></p>
-            <h3>Locales y Facciones</h3>
-            <p>Descubre locales y comercios importantes además de las facciones legales de los servidores<a href="locales-facciones.html">aquí</a></p>
-        </section>
+        <h2>Páginas principales</h2>
+        <section class="principal">
+            <article class="articulo_principal">
+                <div>
+                    <h3>Servidores</h3>
+                    <p>Conoce los diferentes servidores de rol donde se encuentran los personajes</p>
+                </div>
+                <a href="servidores.html" class="articulo__boton">Ver más</a>
+            </article>
+            <article class="articulo_principal">
+                <div>
+                    <h3>Personajes</h3>
+                    <p>Conoce algunos personajes y sus historias </p>
+                </div>
+                <a href="personajes.html" class="articulo__boton">Ver más</a>
+            </article>
+            <article class="articulo_principal">
+                <div>
+                    <h3>Grupos</h3>
+                    <p>Informate sobre los diferentes grupos criminales en el mundo del rol </p>
+                </div>
+                    <a href="grupos.html" class="articulo__boton">Ver más</a>
+            </article>
+            <article class="articulo_principal">
+                <div>
+                    <h3>Locales y Facciones</h3>
+                    <p>Descubre locales y comercios importantes además de las facciones legales de los servidores</p>
+                </div>
+                <a href="locales-facciones.html" class="articulo__boton">Ver más</a>
+            </article>
+            </section>
         <!--Eventos-->
         <section>
             <h2>Eventos recientes</h2>

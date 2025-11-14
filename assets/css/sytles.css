@@ -16,10 +16,8 @@
 a{
     text-decoration: none;
 }
-p{
-    color: white;
-}
-h1, h2, h3, h4, h5, h6{
+
+p, h1, h2, h3, h4, h5, h6{
     color: white;
 }
 
@@ -29,7 +27,6 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     justify-content: space-between;
     background-color: var(--color-secundario);
-    flex-wrap: wrap;
 
 }
 .menu_cabecera{
@@ -37,11 +34,6 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-}
-.logo_cabecera{
-    width: 10%;
-    
 }
 
 .menu__opcion{
@@ -51,11 +43,82 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
+.enlace_cabecera{
+    width: 10%;
+}
+.logo_cabecera{
+    width: 10%;
+    min-width: 80px;
+}
+
+@media (max-width: 780px) {
+    .menu__opcion{
+        font-size: 0.8rem;
+    }
+}
+/*Cuerpo*/
+.cuerpo{
+    background-color: var(--color-cuarto);
+    padding: 1rem 2rem;
+}
+
+h1{
+    color: var(--color-terciario);
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.bienvenida{
+    padding: 1rem;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.principal{
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.articulo_principal{
+    width: 250px;
+    border-style: solid;
+    border-color: var(--color-terciario);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.articulo__boton{
+    display: flex;
+    padding: 0.5rem 1rem;
+
+    justify-content: center;
+    border: solid;
+    border-radius: 1rem;
+    background-color: var(--color-terciario);
+
+    color: black;
+
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.articulo__boton:hover{
+    transform: scale(1.1);
+    background-color: var(--color-primario);
+}
+
+/*Pie*/
 .pie{
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     background-color: var(--color-secundario);
+    flex-wrap: wrap;
 }
 
 .pie_parte{
@@ -68,6 +131,3 @@ h1, h2, h3, h4, h5, h6{
     color: var(--color-primario);
 }
 
-.cuerpo{
-    background-color: var(--color-cuarto);
-}
