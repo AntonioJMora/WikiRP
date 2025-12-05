@@ -5,6 +5,7 @@
     --color-secundario: #0B090A;
     --color-terciario: #BA181B;
     --color-cuarto: #151313;
+    --color-quinto: #d3d3d3;
 }
 
 /*Reseteo* de estilo*/
@@ -76,6 +77,27 @@ h2{
     text-decoration: underline;
 }
 
+
+/*Pie*/
+.pie{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-secundario);
+    flex-wrap: wrap;
+}
+
+.pie_parte{
+    width: 25%;
+    font-size: 1rem;
+    color: var(--color-terciario);
+}
+
+.pie_parte a{
+    color: var(--color-primario);
+}
+
+/*Index*/
 .principal{
     padding: 0.5rem 1rem;
     display: flex;
@@ -112,22 +134,50 @@ h2{
     background-color: var(--color-primario);
 }
 
-/*Pie*/
-.pie{
-    padding: 1rem 2rem;
+.eventos{
+    padding: 1rem 5rem;
     display: flex;
-    justify-content: space-between;
-    background-color: var(--color-secundario);
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.pie_parte{
-    width: 25%;
-    font-size: 1rem;
-    color: var(--color-terciario);
+.eventos_articulo{
+    background-color: var(--color-quinto);
+    padding: 1rem 2rem;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+    border-radius: 1rem;
 }
 
-.pie_parte a{
-    color: var(--color-primario);
+.eventos__titulo{
+    color: black;
+}
+.eventos__texto {
+    color: black;
+    padding: 0.5rem 0.5rem;
 }
 
+/* Página de Servidores*/
+.seccion_infames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen_infames{
+    width: 50%;
+}
+
+.seccion_onx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen_onx{
+    width: 50%;
+}
