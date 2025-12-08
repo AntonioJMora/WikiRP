@@ -30,3 +30,24 @@ En este encontrarás los formularios disponibles de la página web, en este mome
 
 ## Decisiones del diseño estructural tomadas.
 El diseño está hecho así para que sea sencillo buscar la información que se quiere, es decir, si solo quieres saber información sobre personajes, vas a encontrar a todos los personajes en una sola página, y así con todas. He decidido que cada cosa tenga su propia página, como que cada personaje tiene su propia página aparte, para que sea más fácil leerlo y ver la información sobre cada uno. Algunas páginas pueden mostrar que están en proceso de creación ya que al ser tantas, no me ha dado tiempo a terminarlo todo.
+
+## Decisiones de diseño visual.
+El diseño visual está hecho basado en los colores negro, blanco y rojo y sus diferentes tonalidades. Está hecho así para que se respete los colores del logo. He decidido que la página siempre sea negro, por lo que no tiene un dark mode como tal.
+
+## La paleta de colores es la siguiente.
+- color-primario: #E5383B
+- color-secundario: #0B090A
+- color-terciario: #BA181B
+- color-cuarto: #151313
+- color-quinto: #d3d3d3
+
+## Tipografía.
+En la tipografía he dejado la por defecto, pues me gusta el cómo se ve y no he querido cambiarla.
+
+## Capturas
+ ![](assets/capturas/captura_index.png)
+ ![](assets/capturas/captura_servidores.png)
+ ![](assets/capturas/captura_personajes.png)
+
+## Comentario
+Algunas páginas pueden no estar terminadas antes de la entrega, lo siento mucho
