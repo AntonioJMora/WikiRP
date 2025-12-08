@@ -555,3 +555,36 @@ h2{
     flex-direction: column;
     gap: 10px;
 }
+
+/*Páginas de grupos*/
+.grupos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo_grupo{
+    display: block;
+    margin: auto;
+    max-width: 400px;
+}
+
+.informacion_grupo{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.informacion_grupo ul{
+    padding-left: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*Páginas de facciones*/
