@@ -55,11 +55,6 @@ html, body{
     min-width: 80px;
 }
 
-@media (max-width: 780px) {
-    .menu__opcion{
-        font-size: 0.8rem;
-    }
-}
 /*Cuerpo*/
 .cuerpo{
     background-color: var(--color-cuarto);
@@ -588,3 +583,117 @@ h2{
 }
 
 /*Páginas de facciones*/
+.logo_faccion{
+    display: block;
+    margin: auto;
+    max-width: 400px;
+}
+
+.faccion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faccion_informacion{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.faccion_informacion ul{
+    padding-left: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/*Móviles*/
+
+@media (max-width:576px){
+    /* Cabecera */
+    .cabecera {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_cabecera {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.2rem;
+    }
+
+    .menu__opcion {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .logo_cabecera,
+    .enlace_cabecera {
+        width: 50%;
+    }
+
+    /* Pie */
+    .pie_parte {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Principal */
+    .principal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Artículos */
+    .articulo_principal {
+        width: 90%;
+    }
+
+    /* Eventos */
+    .eventos_articulos {
+        height: 350px;
+    }
+    .eventos_articulo {
+        width: 100%;
+    }
+
+    /* Servidores */
+    .seccion_servidores {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .imagen_servidores {
+        width: 100%;
+    }
+
+    /* Diccionario */
+    .elemento_diccionario {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Formularios */
+    .formulario {
+        width: 90%;
+    }
+
+    /* Personajes */
+    .personaje_tabla {
+        width: 100%;
+    }
+
+    /* Tablas */
+    .personaje_tabla table th,
+    .personaje_tabla table td {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
