@@ -207,7 +207,7 @@ h2{
     margin: 0 auto;
 }
 
-/*Página de Personajes*/
+/*Diccionarios de personajes, grupos y facciones*/
 .diccionario{
     padding: 0.5rem;
     gap: 10px;
@@ -294,4 +294,50 @@ h2{
 .elemento_diccionario span{
     color: var(--color-quinto);
     font-weight: bold;
+}
+
+/*Página formularios*/
+.conjunto_formularios{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario{
+    width: 250px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: var(--color-terciario);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.formulario__texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formulario__boton{
+    display: flex;
+    padding: 0.5rem 1rem;
+
+    justify-content: center;
+    border: solid;
+    border-radius: 1rem;
+    background-color: var(--color-terciario);
+
+    color: black;
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.formulario__boton:hover{
+    transform: scale(1.1);
+    background-color: var(--color-primario);
 }
