@@ -378,3 +378,180 @@ h2{
 .articulo_servidor p{
     text-align: justify;
 }
+
+/* Páginas de personajes*/
+
+.personaje{
+    padding: 0.5;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.personaje_contenido{
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.personaje_contenido h3{
+    color: var(--color-primario);
+}
+
+.enlaces_personaje ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.enlaces_personaje ul a{
+    color: var(--color-terciario);
+}
+
+.personaje_tabla{
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.personaje_tabla table th,
+.personaje_tabla table td {
+    border: 1px solid var(--color-terciario);
+    padding: 0.8rem;
+    text-align: left;
+    color: var(--color-quinto);
+}
+.personaje_tabla table th {
+    background-color: var(--color-terciario);
+    color: black;
+    text-align: center;
+}
+.personaje_tabla table img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+.personaje_tabla a{
+    color: var(--color-quinto);
+}
+
+.personaje__texto{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.personaje__texto a{
+    color: var(--color-primario);
+}
+
+.datos_personales{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.datos_personales ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.historia{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.historia h4{
+    color: var(--color-terciario);
+}
+
+.historia ul{
+    padding-left: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descripcion_fisica{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.descripcion_fisica ul{
+    padding-left: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personalidad{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.curiosidades{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.curiosidades ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.relaciones{
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.relaciones ul{
+    padding-left: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
