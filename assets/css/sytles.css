@@ -341,3 +341,40 @@ h2{
     transform: scale(1.1);
     background-color: var(--color-primario);
 }
+
+/*Página de cada servidor*/
+.servidores img{
+    max-width: 600px;
+    max-height: 600px;
+    display: block;
+    margin: auto;
+}
+
+.articulo_servidor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.articulo_servidor ul{
+    list-style: none;
+    color: white;
+}
+
+.articulo_servidor h3{
+    color: var(--color-terciario);
+}
+
+.articulo_servidor ul li a{
+    color: var(--color-primario);
+}
+.articulo_servidor a{
+    color: var(--color-primario);
+}
+
+.articulo_servidor p{
+    text-align: justify;
+}
