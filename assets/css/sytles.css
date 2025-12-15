@@ -112,7 +112,24 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--color-secundario);
 }
+
+.articulo__contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.articulo__contenido h3{
+    text-decoration: underline;
+
+}
+
 .articulo__boton{
     display: flex;
     padding: 0.5rem 1rem;
@@ -139,6 +156,15 @@ h2{
     gap: 1rem;
 }
 
+.eventos_enunciado{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.eventos_enunciado p{
+    padding: 0rem 1rem;
+}
 
 .eventos_articulos{
     height: 500px;
@@ -175,7 +201,7 @@ h2{
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 15px;
 }
 
 .servidores_div{
@@ -208,7 +234,7 @@ h2{
     gap: 10px;
 }
 
-.diccionario h3{
+.diccionario h2{
     padding-bottom: 5px;
 }
 
@@ -251,7 +277,7 @@ h2{
     padding: 0.5rem;
 }
 
-.lista_diccionario h4{
+.lista_diccionario h3{
     font-size: 1.5rem;
     font-style: oblique;
     text-decoration: underline;
@@ -304,6 +330,7 @@ h2{
     border-style: solid;
     border-radius: 15px;
     border-color: var(--color-terciario);
+    background-color: var(--color-secundario);
     padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
@@ -359,7 +386,7 @@ h2{
     color: white;
 }
 
-.articulo_servidor h3{
+.articulo_servidor h2{
     color: var(--color-terciario);
 }
 
@@ -392,8 +419,13 @@ h2{
     gap: 1rem;
 }
 
-.personaje_contenido h3{
+.personaje_contenido h1{
+    color: var(--color-quinto);
+}
+
+.personaje_contenido h2{
     color: var(--color-primario);
+    font-size: larger;
 }
 
 .enlaces_personaje ul{
@@ -475,7 +507,7 @@ h2{
     text-align: justify;
 }
 
-.historia h4{
+.historia h3{
     color: var(--color-terciario);
 }
 
@@ -552,6 +584,12 @@ h2{
 }
 
 /*Páginas de grupos*/
+.cuerpo_grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .grupos{
     display: flex;
     flex-direction: column;
@@ -572,6 +610,14 @@ h2{
     flex-direction: column;
     gap: 10px;
     text-align: justify;
+}
+
+.informacion_grupo img{
+    border-radius: 10px;
+}
+
+.informacion_grupo a{
+    color: var(--color-primario);
 }
 
 .informacion_grupo ul{
@@ -613,6 +659,29 @@ h2{
     gap: 10px;
 }
 
+.faccion_informacion img{
+    border-radius: 10px;
+}
+
+/*Formularios*/
+.cuerpo_formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario_contacto{
+    background-color: var(--color-quinto);
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario_parte fieldset{
+    text-align: center;
+}
 
 /*Móviles*/
 
